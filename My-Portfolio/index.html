@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollmagic@2.0.8/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="https://unpkg.com/scrollmagic@2.0.8/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+   <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+-->
+</head>
+
+<body>
+    
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="menu-toggle">&#9776;</div>
+        <nav class="navbar">
+            <a href="#" style="--i-1 font-weight: bold">Home</a>
+            <a href="#about" style='--i-2'>About</a>
+            <a href="#project" style='--i-2'>Projects</a>
+            <!--<a href="#gal" style="--i-3">Gallery</a>
+            <a href="#portfolio" style="--i-4">Portfolio</a>-->
+            <a href="#services" style='--i-2'>My Services</a>
+            <a href="#contact" style="--i-5">Contact</a>
+        </nav>
+    </header>
+    <br><br><br>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Di Bandara</h1>
+            <h3>and i am <span class="text"></span></h3>
+            <p>21-year-old photographer and frontend developer from Sri Lanka, blending moments with code for captivating narratives.</p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/dileesha.bandara.31"  target="_blank" style="--i-7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/tharuka_dileesha/"  target="_blank" style="--i-8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/message/3A5PR5EGWRDSP1"  target="_blank" style="--i-9"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"  target="_blank" style="--i-10"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://github.com/DiBandara"  target="_blank" style="--i-10"><i class='bx bxl-github'></i></a>
+
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <div class="home-img">
+            <img src="1704904278894-removebg.png">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images\Profile\me1.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>Hey there! I'm Tharuka Dilleesha Bandara, a 21-year-old photographer and frontend developer from Sri Lanka. 
+                I graduated from Mahinda College Galle and earned my Software Engineer Diploma from NIBM.
+                 Currently, I'm furthering my expertise by pursuing a Higher Diploma in Software Engineering at NIBM.
+                  Join me on this creative journey where I blend photography and code to tell compelling stories.
+            </p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+
+    <section  id="project">
+        <div class="page-heading">
+            <h2>My <span>Projects</span></h2>
+            <div class="filters">
+                <button class="filter-button" data-filter="all"><i class='bx bx-list-ul'> All</i></button>
+                <button class="filter-button" data-filter="web"><i class='bx bx-desktop'> Web Site</i></button>
+                <button class="filter-button" data-filter="mobile"><i class='bx bxs-mobile'> Mobile</i></button>
+                <button class="filter-button" data-filter="photography"><i class='bx bxs-camera'>Photography</i></button>
+            </div>
+        </div>
+        
+          <br>
+            <div class="projects">
+                <a href="https://github.com/DiBandara/Random_Number-_Selector" class="card web">
+                    <div class="image-container">
+                        <img src="Images\Projects\Web\296850359-713f26dc-b91c-4003-bc6b-281f25f76b62.png" alt="Project Image" class="project-image">
+                        <div  class="github-logo" id="githubLogo"><i class='bx bxl-github'style="color: #000"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title">Web Project</h2>
+                        <p class="card-description">Discover our Ultimate Random Number Selector: simple, customizable, 
+                            quick results, repeatable sequences. Open source on GitHub. Contribute and spread the word!</p>
+                    </div>
+                </a>
+                
+                <a href="https://shorturl.at/grNY8" target="_blank" class="card photography">
+                    <div class="image-container">
+                        <img src="Images\Projects\Photography\Screenshot 2024-01-19 105556.png" alt="Project Image" class="project-image">
+                        <div  class="github-logo" id="githubLogo"><i class='bx bxl-facebook'style="color: #000"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-title">NIBM Volleyball Championship 2023 - Album 1</h2>
+                        <p class="card-description">🌟Organized By NIBM Galle Campus, was successfully Held On 18th August 2023.</p>
+                    </div>
+                </a>
+            <a href="https://shorturl.at/bfuIX" target="_blank" class="card photography">
+                <div class="image-container">
+                    <img src="Images\Projects\Photography\Screenshot 2024-01-19 132934.png" alt="Project Image" class="project-image">
+                    <div class="github-logo" id="githubLogo"><i class='bx bxl-facebook'style="color: #000"></i></div>
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">NIBM Volleyball Championship 2023 - Album 2</h2>
+                    <p class="card-description">🌟Organized By NIBM Galle Campus, was successfully Held On 18th August 2023.</p>
+                </div>
+            </a>
+            <a href="https://shorturl.at/dnCO5" target="_blank" class="card photography">
+                <div class="image-container">
+                    <img src="Images\Projects\Photography\Screenshot 2024-02-11 115309.png" alt="Project Image" class="project-image">
+                    <div class="github-logo" id="githubLogo"><i class='bx bxl-facebook'style="color: #000"></i></div>
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">NIBM GALLE Vs NIBM COLOMBO Friendly Encounter</h2>
+                    <p class="card-description">🌟 NIBM GALLE Vs NIBM COLOMBO Friendly Encounter.<br>
+                        📆 14/09/2023  Netball 🏀 & Rugby 🏉 
+                        </p>
+                </div>
+            </a>
+            
+        
+        </div>
+        
+
+    </section>
+
+
+
+
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        
+                        <i class='bx bx-code' style="color: #00F72F"></i>
+                        <h2>UI/UX Desige</h2>
+                        <p>Welcome to my world of UI/UX design! 🎨✨
+                             Join me as I craft intuitive digital experiences that captivate and delight users.
+                              Let's collaborate and innovate together! 💡💻</p>
+                        <a href="#" class="read">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-camera' style="color: #00F72F"></i>
+                        <h2>photography</h2>
+                        <p>Equipped with formal photography training, I've covered over 7 events,
+                             showcasing my skills under the brand 'Di Bandara.' Each click is a story, 
+                             and I'm on a constant journey to tell more through my lens.</p>
+                        <a href="#" class="read">Learn more</a>
+                    </div>
+                   <!-- <div>
+                        <i class='bx bx-photo-album' style="color: #00F72F"></i>
+                        <h2>UI/UX Desige</h2>
+                        <p>My name is Di Bandara. I am a Frontend Developer. I have 1 year of experience.Also I am a
+                            Photographer</p>
+                        <a href="#" class="read">Learn more</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--       <h1 class ="sub-title">My <span>Skills</span></h1>
+        <section >
+            <div class="container1" id="Skills">
+                <h1 class="heading1">Technical Skill</h1>
+                <div class="Technical-bars">
+                    <div class="bar">
+                        <div class="info"><i style="color: #00F72F;" class='bx bxl-html5' ></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="info"><i style="color: #00F72F;" class='bx bxl-css3' ></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="progress-line css">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="info"><i style="color: #00F72F;" class='bx bxl-javascript' ></i>
+                            <span>Java Script</span>
+                        </div>
+                        <div class="progress-line js">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="info"><i style="color: #00F72F;" class='bx bxl-python' ></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-line python">
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <div class="info"><i style="color: #00F72F;" class='bx bxl-react'></i>
+                                <span>React</span>
+                            </div>
+                            <div class="progress-line react">
+                                <span></span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div id="Portfolio" id="project">
+                <div class="main-text" id="project">
+                    <h2>Latest <span>Project</span></h2>
+                    <div class="Portfolio-content">
+                        <div class="now">
+                            <img src="Portfolio1.jpg">
+                            <div class="layer">
+                                <h5>Project Title</h5>
+                                <P></P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <body1>
+            <div class="gal" id="gal">
+                <h2>Gal<span>lery</span></h2>
+            <article class="gallery">
+                
+                <img src="Images\Gal\1704904278909.jpg" alt="guitar player at concert" />
+                <img src="Images\Gal\1704904278943.jpg" alt="duo singing" />
+                <img src="Images\Gal\1704904279071.jpg" alt="crowd cheering" />
+                <img src="Images\Gal\1704904278894.jpg" alt="singer performing" />
+                <img src="Images\Gal\1704904278962.jpg" alt="singer fistbumping crowd" />
+                <img src="Images\Gal\1704904279008.jpg" alt="man with a guitar singing" />
+                <img src="Images\Gal\1704904279054.jpg" alt="crowd looking at a lighted stage" />
+                <img src="Images\Gal\1704904278985.jpg " alt="woman singing on stage" />
+              </article>
+            
+            </div>
+          </body1>
+    -->
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact<span> Me</span></h2>
+                <h4>Let's Work Together</h4>
+                <p>Are you seeking a frontend developer or in need of a talented photographer for your project? 
+                    Let's join forces and create something remarkable together!</p>
+                <div class="contact-list">
+                    <li><a href="mailto:tharukadileesha1@gmail.com"><i class='bx bxs-send'></i> tharukadileesha1@gmail.com</a></li>
+                    <li><i class='bx bx-phone'></i> 0713291955</li>
+                </div>
+                <p>Are you seeking a frontend developer or in need of a talented photographer for your project? 
+                    Let's join forces and create something remarkable together!</p>
+                <div>
+                    <a href="https://www.facebook.com/dileesha.bandara.31" target="_blank" class="contact-icons" style="--i-1"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/tharuka_dileesha/" target="_blank" class="contact-icons" style="--i-2"><i
+                            class='bx bxl-instagram'></i></a>
+                    <a href="https://wa.me/message/3A5PR5EGWRDSP1" target="_blank" class="contact-icons" style="--i-3"><i
+                            class='bx bxl-whatsapp'></i></a>
+                    <a href="" class="contact-icons" target="_blank" style="--i-4"><i class='bx bxl-tiktok'></i></a>
+                    <a href="https://github.com/DiBandara" target="_blank" class="contact-icons" style="--i-5"><i class='bx bxl-github'></i></a>
+                </div>
+                
+            </div>
+            
+          
+            <div class="contact-form">
+                <form name="contact-us" onsubmit="event.preventDefault(); handleSubmit();">
+                    <br><br><br>
+                    <input name="name" type="text" id="name" placeholder="Name" required>
+        
+                    <input name="email" type="email" id="email" placeholder="Email" required>
+        
+                    <input name="subject" type="text" id="subject" placeholder="Subject">
+        
+                    <textarea name="message" id="message" cols="40" rows="10" placeholder="Message" required></textarea>
+        
+                    <div class="g-recaptcha" data-sitekey="6LeiSlApAAAAACrMy4DQ6sHqF8R7XlWkWlx3vad5"></div>
+        
+                    <br/>
+                   
+                    <div id="loading-icon">Loading...</div>
+        
+                    
+                    <input type="submit" id="submit-btn" value="Submit" class="send">
+                </form>
+            
+            </div>
+        </section>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbztXfT5xkmSwIcKgyw0DseWA-a7xzx3vQX9oQaT4q65xocJ2N47_56iWEOYv1Hwzebd/exec'
+        const form = document.forms['contact-us']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+
+            // Validate reCAPTCHA
+            const recaptchaResponse = grecaptcha.getResponse();
+            if (recaptchaResponse === '') {
+                alert('Please complete the reCAPTCHA.');
+                return;
+            }
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    console.log('Success!', response);
+                    // Clear the form fields
+                    form.reset();
+                    location.reload();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+<div class="modern-footer">
+    <p>Designed with passion by Dileesha Bandara &copy; 2024</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/dileesha.bandara.31" target="_blank" class="icon"><i class='bx bxl-facebook' ></i></a>
+        <a href="https://www.instagram.com/tharuka_dileesha/" target="_blank" class="icon"><i class='bx bxl-instagram'></i></a>
+        <a href="https://wa.me/message/3A5PR5EGWRDSP1" target="_blank" class="icon"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#" target="_blank" class="icon"><i class='bx bxl-tiktok'></i></a>
+        <a href="https://github.com/DiBandara" target="_blank" class="icon"><i class='bx bxl-github'></i></a>
+    </div>
+</div>
+
+
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+    <script src="main.js"></script>
+
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</body>
+
+</html>
