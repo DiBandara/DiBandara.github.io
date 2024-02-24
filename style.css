@@ -333,6 +333,7 @@ body {
     gap: 1.5rem;
 }
 
+
 .about-img img {
     margin-top: 9%;
    
@@ -348,21 +349,28 @@ body {
     
 }
 
-.about-text {
-    text-align: center;
+.about-text h2 {
+    font-size: 60px;
 }
 
-.about-text h2 {
-    font-size: 40px;
+.about-text h2 span {
+    color: #00F72F;
 }
 
 .about-text h4 {
-    font-size: 20px;
+    font-size: 29px;
+    font-weight: 600;
+    color: aliceblue;
+    line-height: 1.7;
+    margin: 15px 0 30px;
 }
 
 .about-text p {
-    font-size: 16px;
-    margin-bottom: 2rem;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    margin-right: 30px;
 }
 
 @media screen and (min-width: 768px) {
